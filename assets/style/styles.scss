@@ -284,3 +284,49 @@ button{
   }
 }
 /*SECTION TECHNOLOGY*/
+.insurance{
+  background: #F8F8F8;
+  padding: 91px 0 85px;
+  &_title{
+    margin: 30px 0 37px;
+  }
+  &_desc{
+    padding: 0 10px 0;
+    text-align: center;
+    margin-bottom: 41px;
+  }
+  & .grid{
+    width: 100%;
+    grid-column-gap:  70px;
+  }
+  &_card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+    height: 310px;
+    box-shadow: 0 2px 40px rgba(0, 0, 0, 0.04);
+  }
+  &_card.card_first img{
+    margin-top: 70px;
+  }
+  &_first-title{
+    margin: 15px 0 5px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 26px;
+    text-align: center;
+    color: #1D253C;
+  }
+  &_first-desc{
+    width: 212px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 26px;
+    color: #5A6482;
+  }
+  &_card.card_second img{
+      margin-top: 30px;
+    }
+}
+/*SECTION INSURANCE*/
