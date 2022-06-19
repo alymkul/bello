@@ -285,6 +285,7 @@ button{
 }
 /*SECTION TECHNOLOGY*/
 .insurance{
+  position: relative;
   background: #F8F8F8;
   padding: 91px 0 85px;
   &_title{
@@ -310,16 +311,23 @@ button{
   &_card.card_first img{
     margin-top: 70px;
   }
-  &_first-title{
-    margin: 15px 0 5px;
+  &_card.card_first{
+    & .insurance_sm-title{
+      margin: 15px 0 5px;
+    }
+    & .insurance_sm-desc{
+      width: 212px;
+    }
+  }
+
+  &_sm-title{
     font-weight: 400;
     font-size: 24px;
     line-height: 26px;
     text-align: center;
     color: #1D253C;
   }
-  &_first-desc{
-    width: 212px;
+  &_sm-desc{
     font-weight: 400;
     font-size: 12px;
     line-height: 26px;
@@ -328,5 +336,75 @@ button{
   &_card.card_second img{
       margin-top: 30px;
     }
+  &_card.card_second{
+    & .insurance_sm-desc{
+      width: 247px;
+      text-align: center;
+    }
+    & .insurance_sm-title{
+      margin-bottom: 15px;
+    }
+  }
+  &_card.card_third img {
+    margin-top: 44px;
+  }
+  &_card.card_third {
+    & .insurance_sm-title {
+      margin-bottom:10px
+    }
+    & .insurance_sm-desc{
+      width: 244px;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 26px;
+      text-align: center;
+      color: #5A6482;
+    }
+  }
+  &_umb{
+    position: absolute;
+    top: -110px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+  &_dog{
+    position: absolute;
+    bottom: -30px;
+    right: 0;
+  }
 }
 /*SECTION INSURANCE*/
+/*SECTION DESC*/
+.steps{
+  background:  #363839;
+  padding: 120px 0 101px;
+  text-align: center;
+  &_title{
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 26px 0 15px;
+  }
+  &_suptitle{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #F46752;
+  }
+  &_desc{
+    max-width: 731px;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    text-align: center;
+    color: #ACB4BF;
+
+  }
+}
+/*SECTION DESC*/
