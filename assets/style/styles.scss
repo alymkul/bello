@@ -108,7 +108,7 @@ button{
 }
 /*UNIQUE CONF*/
 /*BASIC CONF*/
-/* SECTION HEADER*/
+
 .header{
   height: 105px;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
@@ -148,8 +148,7 @@ button{
     }
   }
 }
-/* SECTION HEADER*/
-/* SECTION HERO*/
+
 .hero{
   height: 100vh;
   background: url("../images/hero.png")no-repeat right;
@@ -180,8 +179,7 @@ button{
     margin: 26px 0 40px;
   }
 }
-/* SECTION HERO*/
-/*SECTION FUTURE*/
+
 .future{
   background:#F9F5F2;
   padding: 85px 0;
@@ -222,12 +220,12 @@ button{
     margin-bottom: 32px;
   }
 }
+
 .future_right-part{
   padding-left: 96px;
 
 }
-/*SECTION FUTURE*/
-/*SECTION TECHNOLOGY*/
+
 .technology{
   &_title{
     margin: 27px 0 35px;
@@ -253,6 +251,7 @@ button{
     object-fit: cover;
   }
   &_btn{
+    position: relative;
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
@@ -260,8 +259,8 @@ button{
   }
   & svg{
     position: absolute;
-    top: -35px;
-    left: -45px;
+    top: 5px;
+    left: 74px;
   }
   &_comment{
     position: absolute;
@@ -283,7 +282,7 @@ button{
 
   }
 }
-/*SECTION TECHNOLOGY*/
+
 .insurance{
   position: relative;
   background: #F8F8F8;
@@ -374,12 +373,14 @@ button{
     right: 0;
   }
 }
-/*SECTION INSURANCE*/
-/*SECTION DESC*/
+
 .steps{
   background:  #363839;
   padding: 120px 0 101px;
   text-align: center;
+  & .container{
+    position: relative;
+  }
   &_title{
     font-weight: 500;
     font-size: 44px;
@@ -406,5 +407,68 @@ button{
     color: #ACB4BF;
 
   }
+  & .covered{
+    height: 195px;
+  }
+  &_one{
+    position: absolute;
+    z-index: 5;
+    top: 237px;
+    left: 167px;
+  }
+  &_two{
+    position: absolute;
+    z-index: 5;
+    top: 243px;
+    left: 1px;
+    right: 0;
+    margin: 0 auto;
+  }
+  &_tree{
+    position: absolute;
+    z-index: 5;
+    top: 233px;
+    right: 162px;
+  }
+  &_drop{
+    position: absolute;
+    top:220px ;
+    left: 79px;
+  }
+  &_drop2{
+    position: absolute;
+    top: 234px;
+    left: 348px;
+  }
+  &_circle{
+    position: absolute;
+    top: 257px;
+    left: 182px;
+  }
+  &_circle2{
+    position: absolute;
+    top: 257px;
+    left: 0;
+    right: 20px;
+    margin: 0 auto;
+  }
+  &_circle3{
+    position: absolute;
+    top: 242px;
+    right: 172px;
+  }
+  &_band{
+    position: absolute;
+    top: 250px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+  &_confetti{
+    position: absolute;
+    top: 85px;
+    left: 933px;
+  }
+
 }
-/*SECTION DESC*/
+

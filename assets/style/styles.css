@@ -125,7 +125,6 @@ button {
 
 /*UNIQUE CONF*/
 /*BASIC CONF*/
-/* SECTION HEADER*/
 .header {
   height: 105px;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
@@ -166,8 +165,6 @@ button {
   width: 100%;
 }
 
-/* SECTION HEADER*/
-/* SECTION HERO*/
 .hero {
   height: 100vh;
   background: url("../images/hero.png") no-repeat right;
@@ -199,8 +196,6 @@ button {
   margin: 26px 0 40px;
 }
 
-/* SECTION HERO*/
-/*SECTION FUTURE*/
 .future {
   background: #F9F5F2;
   padding: 85px 0;
@@ -246,8 +241,6 @@ button {
   padding-left: 96px;
 }
 
-/*SECTION FUTURE*/
-/*SECTION TECHNOLOGY*/
 .technology_title {
   margin: 27px 0 35px;
 }
@@ -271,6 +264,7 @@ button {
   object-fit: cover;
 }
 .technology_btn {
+  position: relative;
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
@@ -278,8 +272,8 @@ button {
 }
 .technology svg {
   position: absolute;
-  top: -35px;
-  left: -45px;
+  top: 5px;
+  left: 74px;
 }
 .technology_comment {
   position: absolute;
@@ -300,7 +294,6 @@ button {
   z-index: 11;
 }
 
-/*SECTION TECHNOLOGY*/
 .insurance {
   position: relative;
   background: #F8F8F8;
@@ -385,12 +378,13 @@ button {
   right: 0;
 }
 
-/*SECTION INSURANCE*/
-/*SECTION DESC*/
 .steps {
   background: #363839;
   padding: 120px 0 101px;
   text-align: center;
+}
+.steps .container {
+  position: relative;
 }
 .steps_title {
   font-weight: 500;
@@ -417,7 +411,67 @@ button {
   text-align: center;
   color: #ACB4BF;
 }
-
-/*SECTION DESC*/
+.steps .covered {
+  height: 195px;
+}
+.steps_one {
+  position: absolute;
+  z-index: 5;
+  top: 237px;
+  left: 167px;
+}
+.steps_two {
+  position: absolute;
+  z-index: 5;
+  top: 243px;
+  left: 1px;
+  right: 0;
+  margin: 0 auto;
+}
+.steps_tree {
+  position: absolute;
+  z-index: 5;
+  top: 233px;
+  right: 162px;
+}
+.steps_drop {
+  position: absolute;
+  top: 220px;
+  left: 79px;
+}
+.steps_drop2 {
+  position: absolute;
+  top: 234px;
+  left: 348px;
+}
+.steps_circle {
+  position: absolute;
+  top: 257px;
+  left: 182px;
+}
+.steps_circle2 {
+  position: absolute;
+  top: 257px;
+  left: 0;
+  right: 20px;
+  margin: 0 auto;
+}
+.steps_circle3 {
+  position: absolute;
+  top: 242px;
+  right: 172px;
+}
+.steps_band {
+  position: absolute;
+  top: 250px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.steps_confetti {
+  position: absolute;
+  top: 85px;
+  left: 933px;
+}
 
 /*# sourceMappingURL=styles.css.map */
