@@ -108,7 +108,7 @@ button{
 }
 /*UNIQUE CONF*/
 /*BASIC CONF*/
-/* SECTION HEADER*/
+
 .header{
   height: 105px;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
@@ -148,8 +148,7 @@ button{
     }
   }
 }
-/* SECTION HEADER*/
-/* SECTION HERO*/
+
 .hero{
   height: 100vh;
   background: url("../images/hero.png")no-repeat right;
@@ -180,8 +179,7 @@ button{
     margin: 26px 0 40px;
   }
 }
-/* SECTION HERO*/
-/*SECTION FUTURE*/
+
 .future{
   background:#F9F5F2;
   padding: 85px 0;
@@ -222,12 +220,12 @@ button{
     margin-bottom: 32px;
   }
 }
+
 .future_right-part{
   padding-left: 96px;
 
 }
-/*SECTION FUTURE*/
-/*SECTION TECHNOLOGY*/
+
 .technology{
   &_title{
     margin: 27px 0 35px;
@@ -253,6 +251,7 @@ button{
     object-fit: cover;
   }
   &_btn{
+    position: relative;
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
@@ -260,8 +259,8 @@ button{
   }
   & svg{
     position: absolute;
-    top: -35px;
-    left: -45px;
+    top: 5px;
+    left: 74px;
   }
   &_comment{
     position: absolute;
@@ -283,8 +282,9 @@ button{
 
   }
 }
-/*SECTION TECHNOLOGY*/
+
 .insurance{
+  position: relative;
   background: #F8F8F8;
   padding: 91px 0 85px;
   &_title{
@@ -310,16 +310,23 @@ button{
   &_card.card_first img{
     margin-top: 70px;
   }
-  &_first-title{
-    margin: 15px 0 5px;
+  &_card.card_first{
+    & .insurance_sm-title{
+      margin: 15px 0 5px;
+    }
+    & .insurance_sm-desc{
+      width: 212px;
+    }
+  }
+
+  &_sm-title{
     font-weight: 400;
     font-size: 24px;
     line-height: 26px;
     text-align: center;
     color: #1D253C;
   }
-  &_first-desc{
-    width: 212px;
+  &_sm-desc{
     font-weight: 400;
     font-size: 12px;
     line-height: 26px;
@@ -328,5 +335,185 @@ button{
   &_card.card_second img{
       margin-top: 30px;
     }
+  &_card.card_second{
+    & .insurance_sm-desc{
+      width: 247px;
+      text-align: center;
+    }
+    & .insurance_sm-title{
+      margin-bottom: 15px;
+    }
+  }
+  &_card.card_third img {
+    margin-top: 44px;
+  }
+  &_card.card_third {
+    & .insurance_sm-title {
+      margin-bottom:10px
+    }
+    & .insurance_sm-desc{
+      width: 244px;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 26px;
+      text-align: center;
+      color: #5A6482;
+    }
+  }
+  &_umb{
+    position: absolute;
+    top: -110px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+  &_dog{
+    position: absolute;
+    bottom: -30px;
+    right: 0;
+  }
 }
-/*SECTION INSURANCE*/
+
+.steps{
+  background:  #363839;
+  padding: 120px 0 101px;
+  text-align: center;
+  height: 746px;
+  & .container{
+    position: relative;
+  }
+  &_title{
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 26px 0 15px;
+  }
+  &_suptitle{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #F46752;
+  }
+  &_desc{
+    max-width: 731px;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    text-align: center;
+    color: #ACB4BF;
+
+  }
+  & .covered{
+    height: 195px;
+    & .steps_left-part{
+      position: absolute;
+      width: 234px;
+      top: 324px;
+      left: 66px;
+    }
+    & .steps_middle-part{
+      position: absolute;
+      width: 234px;
+      top: 317px;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+
+    }
+    & .steps_right-part{
+      position: absolute;
+      width: 256px;
+      right: 56px;
+      bottom: -32px;
+    }
+  }
+  &_one{
+    position: absolute;
+    z-index: 5;
+    top: 237px;
+    left: 167px;
+  }
+  &_two{
+    position: absolute;
+    z-index: 5;
+    top: 243px;
+    left: 1px;
+    right: 0;
+    margin: 0 auto;
+  }
+  &_tree{
+    position: absolute;
+    z-index: 5;
+    top: 233px;
+    right: 162px;
+  }
+  &_drop{
+    position: absolute;
+    top:220px ;
+    left: 79px;
+  }
+  &_drop2{
+    position: absolute;
+    top: 234px;
+    left: 348px;
+  }
+  &_circle{
+    position: absolute;
+    top: 257px;
+    left: 182px;
+  }
+  &_circle2{
+    position: absolute;
+    top: 257px;
+    left: 0;
+    right: 20px;
+    margin: 0 auto;
+  }
+  &_circle3{
+    position: absolute;
+    top: 242px;
+    right: 172px;
+  }
+  &_band{
+    position: absolute;
+    top: 250px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+  &_confetti{
+    position: absolute;
+    top: 85px;
+    left: 933px;
+  }
+  &_md-title{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+  }
+  &_md-desc{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #ACB4BF;
+
+  }
+  &_btn{
+    position: absolute;
+    top: 464px;
+    bottom: -4px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+}
+
+
