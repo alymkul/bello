@@ -382,6 +382,7 @@ button {
   background: #363839;
   padding: 120px 0 101px;
   text-align: center;
+  height: 746px;
 }
 .steps .container {
   position: relative;
@@ -413,6 +414,26 @@ button {
 }
 .steps .covered {
   height: 195px;
+}
+.steps .covered .steps_left-part {
+  position: absolute;
+  width: 234px;
+  top: 324px;
+  left: 66px;
+}
+.steps .covered .steps_middle-part {
+  position: absolute;
+  width: 234px;
+  top: 317px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.steps .covered .steps_right-part {
+  position: absolute;
+  width: 256px;
+  right: 56px;
+  bottom: -32px;
 }
 .steps_one {
   position: absolute;
@@ -472,6 +493,28 @@ button {
   position: absolute;
   top: 85px;
   left: 933px;
+}
+.steps_md-title {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 22px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 8px;
+}
+.steps_md-desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ACB4BF;
+}
+.steps_btn {
+  position: absolute;
+  top: 464px;
+  bottom: -4px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
 }
 
 /*# sourceMappingURL=styles.css.map */
